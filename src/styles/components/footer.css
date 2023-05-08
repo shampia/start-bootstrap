@@ -1,0 +1,10 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+
+footer p{
+    color:  #6c757d;
+}

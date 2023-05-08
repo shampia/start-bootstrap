@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>start bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/components/header.css">
+    <link rel="stylesheet" href="styles/components/general.css">
+    <link rel="stylesheet" href="styles/components/index.css">
+    <link rel="stylesheet" href="styles/components/footer.css">
+    <script src="./scripts/index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <img src="./img/navbar-logo.svg" alt="">
+            </a>
+
+            <nav id="minNav">
+                <ul  id="header-menu">
+                    <li>
+                        <a target="services" href="#services" class="nav-link"> 
+                            SERVICES
+                        </a>
+                    </li>
+
+                    <li>
+                        <a target="portfolio" href="#portfolio" class="nav-link">
+                            PORTFOLIO
+                        </a>
+                    </li>
+
+                    <li>
+                        <a target="about" href="#about" class="nav-link">
+                            ABOUT
+                        </a>
+                    </li>
+
+                    <li>
+                        <a target="team" href="#team" class="nav-link">
+                            TEAM
+                        </a>
+                    </li>
+
+                    <li>
+                        <a target="contact" href="#contact" class="nav-link">
+                            CONTACT
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="studio">
+        <img src="./img/header-bg.jpg" class="studio-back">
+        <div class="container">
+            <p>Welcome To Our Studio!</p>
+            <h2>IT'S NICE TO MEET YOU</h2>
+            <span>
+                <a href="#services">
+                    Tell Me More
+                </a> 
+            </span>
+        </div>
+    </section>
+
+    <!--servises-->
+
+    <section class="services" id="services" target="services">
+        <div class="container">
+            <div class="title">
+                <h2>SERVICES</h2>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="services-items">
+                <div class="services-items-item">
+                    <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #ffffff;"></i>
+                    <h2>E-Commerce</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+
+                <div class="services-items-item">
+                    <i class="fa-solid fa-laptop fa-2xl" style="color: #ffffff;"></i>
+                    <h2>Responsive Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+
+                <div class="services-items-item">
+                    <i class="fa-solid fa-lock fa-2xl" style="color: #ffffff;"></i>
+                    <h2>Web Security</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--portfolio-->
+
+    <section class="portfolio" id="portfolio" target="portfolio">
+        <div class="container">
+            <div class="title">
+                <h2>PORTFOLIO</h2>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img  src="./img/portfolio/1.jpg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Threads</div>
+                        <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                    </div>
+                </div>
+    
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img  src="./img/portfolio/2.jpg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Threads</div>
+                        <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                    </div>
+                </div>
+    
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img  src="./img/portfolio/3.jpg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Threads</div>
+                        <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img  src="./img/portfolio/4.jpg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Threads</div>
+                        <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                    </div>
+                </div>
+    
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img  src="./img/portfolio/5.jpg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Threads</div>
+                        <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                    </div>
+                </div>
+    
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img  src="./img/portfolio/6.jpg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Threads</div>
+                        <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+
+    <!--about-->
+
+    <section class="about">
+        <div class="container">
+            <div class="title">
+                <h2>ABOUT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="about-items">
+                <ul class="timeline">
+                    <li >
+                        <div class="text">
+                            <h2>2009-2011</h2>
+                            <h2>Our Humble Beginnings</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                        <img src="./img/about/1.jpg" alt="">
+                    </li>
+                      
+                    <li>
+                        <img src="./img/about/2.jpg" alt="">
+                        <div class="text">
+                            <h2>2009-2011</h2>
+                            <h2>Our Humble Beginnings</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="text">
+                            <h2>2009-2011</h2>
+                            <h2>Our Humble Beginnings</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                        </div>
+                        <img src="./img/about/3.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="./img/about/4.jpg" alt="">
+                        <div class="text">                      
+                            <h2>2009-2011</h2>
+                            <h2>Our Humble Beginnings</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p> 
+                        </div>
+                       
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--team-->
+
+    <section class="team">
+        <div class="container">
+            <div class="title">
+                <h2>OUR AMAZING TEAM</h2>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="team-items">
+                <div class="team-item">
+                    <img src="./img/team/1.jpg" alt="">
+                    <h2>Parveen Anand</h2>
+                    <p>Lead Designer</p>
+                    <div class="sq-iqon">
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter fa-2xs"></i></a>  
+                       <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f fa-2xs"></i></a> 
+                       <a href="https://www.linkedin.com"> <i class="fa-brands fa-linkedin-in fa-2xs"></i></a>
+                    </div>
+                </div>
+    
+                <div class="team-item">
+                    <img src="./img/team/2.jpg" alt="">
+                    <h2>Parveen Anand</h2>
+                    <p>Lead Designer</p>
+                    <div class="sq-iqon">
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter fa-2xs"></i></a>  
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f fa-2xs"></i></a> 
+                        <a href="https://www.linkedin.com"> <i class="fa-brands fa-linkedin-in fa-2xs"></i></a>
+                    </div>
+                </div>
+    
+                <div class="team-item">
+                    <img src="./img/team/3.jpg" alt="">
+                    <h2>Parveen Anand</h2>
+                    <p>Lead Designer</p>
+                    <div class="sq-iqon">
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter fa-2xs"></i></a>  
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f fa-2xs"></i></a> 
+                        <a href="https://www.linkedin.com"> <i class="fa-brands fa-linkedin-in fa-2xs"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-footer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+            </div>
+        
+        </div>
+        
+    </section>
+
+    <!--contact-->
+
+    <section class="contact">
+ 
+        <div class="container">
+            <img src="./img/map-image.png" class="contact-back">
+            <div class="contact-title">
+                <h2>CONTACT US</h2>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <form >
+                <div class="input">
+                    <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+
+                    <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+    
+                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                </div>
+              
+
+                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+
+               
+            </form>
+            <button>SEND MESAGE</button>
+           
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © Your Website 2023</p>
+        <div class="sq-iqon">
+            <a href="https://twitter.com"><i class="fa-brands fa-twitter fa-2xs"></i></a>  
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f fa-2xs"></i></a> 
+            <a href="https://www.linkedin.com"> <i class="fa-brands fa-linkedin-in fa-2xs"></i></a>
+        </div>
+        <p>Privacy Policy  Terms of Use</p>
+        
+    </footer>
+</body>
+</html>
