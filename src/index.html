@@ -6,49 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>start bootstrap</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles/components/header.css">
-    <link rel="stylesheet" href="styles/components/general.css">
     <link rel="stylesheet" href="styles/components/index.css">
     <link rel="stylesheet" href="styles/components/footer.css">
-    <script src="./scripts/index.js"></script>
 </head>
 <body>
     <header>
         <div class="container">
-            <a href="index.html">
+            <a href="/dist">
                 <img src="./img/navbar-logo.svg" alt="">
             </a>
 
             <nav id="minNav">
                 <ul  id="header-menu">
-                    <li>
-                        <a target="services" href="#services" class="nav-link"> 
-                            SERVICES
-                        </a>
+                    <li target="services">
+                        SERVICES
                     </li>
 
-                    <li>
-                        <a target="portfolio" href="#portfolio" class="nav-link">
-                            PORTFOLIO
-                        </a>
+                    <li target="portfolio">
+                        PORTFOLIO
                     </li>
 
-                    <li>
-                        <a target="about" href="#about" class="nav-link">
-                            ABOUT
-                        </a>
+                    <li target="about">
+                        ABOUT
                     </li>
 
-                    <li>
-                        <a target="team" href="#team" class="nav-link">
-                            TEAM
-                        </a>
+                    <li target="team">
+                        TEAM
                     </li>
 
-                    <li>
-                        <a target="contact" href="#contact" class="nav-link">
-                            CONTACT
-                        </a>
+                    <li target="contact">
+                        CONTACT
                     </li>
                 </ul>
             </nav>
@@ -190,7 +177,7 @@
 
     <!--about-->
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="title">
                 <h2>ABOUT</h2>
@@ -240,7 +227,7 @@
 
     <!--team-->
 
-    <section class="team">
+    <section class="team" id="team">
         <div class="container">
             <div class="title">
                 <h2>OUR AMAZING TEAM</h2>
@@ -290,7 +277,7 @@
 
     <!--contact-->
 
-    <section class="contact">
+    <section class="contact" id="contact">
  
         <div class="container">
             <img src="./img/map-image.png" class="contact-back">
@@ -327,5 +314,8 @@
         <p>Privacy Policy  Terms of Use</p>
         
     </footer>
+    <script src="./scripts/index.js"></script>
+
 </body>
+
 </html>
